@@ -23,7 +23,7 @@ function App() {
         onHide={() => setModalShow(false)}
       />
 
-ㅁㅇㄹㅁㅇdfasdfadf
+fadf
 
 
       <header className="App-header">
