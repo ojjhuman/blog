@@ -1,0 +1,206 @@
+/* make the customizations */
+// Override default variables before the import
+// you can open the bootstrap.scss module and check any available variables.
+$primary: #58bcb9;
+$secondary: #703ba8;
+$success: #3e8d63;
+$info: #7854e4;
+$warning: #b8c924;
+$danger: #d62518;
+$light: #f8f9fa;
+$dark: #343a40;
+$text-color-second: #606060;
+$landing-pg-btn-color: #5f26ff;
+
+//custom color to be mapped
+$accent : #da6d25;
+
+// this is used to map colors. change accordingly.
+$theme-colors: (
+  primary: $primary,
+  secondary: $secondary,
+  success: $success,
+  info: $info,
+  warning: $warning,
+  danger: $danger,
+  light: $light,
+  dark: $dark,
+// add any additional color below
+  accent: $accent,
+// now bg-accent,btn-accent,etc.. can be called
+);
+
+.col-secondary{
+  color: $secondary
+}
+
+.text-col-second{
+  color: $text-color-second
+}
+
+.link-col-second{
+  color: $text-color-second;
+  text-decoration-color: $text-color-second;
+  text-decoration: underline;
+}
+
+.fill-secondary svg path{
+  fill: $secondary !important;
+}
+
+.fill-primary svg path{
+  fill: $primary !important;
+}
+
+.right-aligned{
+  align-items: right;
+}
+
+.link-no-underline{
+  text-decoration: none;
+}
+
+.center-screen {
+  margin: 0;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+// Main Page Style
+.mp-button{
+  width: 167px;
+  height: 48px;
+}
+
+.landing-pg-btn-col{
+  background-color: $landing-pg-btn-color;
+  width: auto;
+  text-decoration: none;
+}
+
+.landing-pg-bg{
+  background-color: #fafafa;
+}
+
+.landing-pg-bg2{
+  background-color: #c23a3a;
+}
+
+.landing-pg-card1 {
+  margin-top: 10px;
+  box-sizing: border-box;
+  border-radius: 60px;
+  background-clip: padding-box;
+  width: 80%;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.landing-pg-card2 {
+  margin-top: 30px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background-clip: padding-box;
+  width: 100%;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.youtube-player-frame{
+  border-radius: 30px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.youtube-player-size{
+  width: 80%;
+  height: auto;
+  margin-top: -40px;
+}
+
+// Footer style
+.footer-txt-sm-1{
+  font-size: 14px;
+  color: #606060;
+}
+
+.footer-txt-sm-2{
+  font-size: 12px;
+  color: #898989;
+}
+
+.footer-link-1 {
+  font-weight: bold;
+  font-size: 12px;
+  display: block;
+  color: black;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.footer-link-2 {
+  font-size: 11px;
+  display: block;
+  color: #898989;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+//Inquiry
+.inquiry-image{
+  background-color:#58bcb9;
+  border-radius: 15px 0px 0px 15px;
+  box-shadow: 0 1px 50px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+}
+
+.inquiry-form{
+  background-color: white;
+  border-radius: 0px 15px 15px 0px;
+  box-shadow: 0 1px 50px 0 rgba(0, 0, 0, 0.06), 0 1px 60px 0 rgba(0, 0, 0, 0.12);
+}
+
+//Login
+.login-form{
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 1px 50px 0 rgba(0, 0, 0, 0.06), 0 1px 60px 0 rgba(0, 0, 0, 0.12);
+}
+
+
+
+.-\31 -inaboothkr- {
+  width: 659px;
+  height: 861px;
+  font-family: NotoSansCJKKR;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.14px;
+  text-align: left;
+  color: #1a1a1a;
+}
+
+/* .-\31 -inaboothkr- .text-style-1 { */
+.text-style-1 {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: normal;
+  color: #171725;
+}
+
+.text-style-2 {
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 0.18px;
+  white-space: pre-line;
+}
+
+.-\37 09 {
+  width: 714px;
+  height: 906px;
+  object-fit: contain;
+}
+
+@import "~bootstrap/scss/bootstrap";

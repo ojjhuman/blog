@@ -12,7 +12,13 @@
     animation: App-logo-float infinite 3s ease-in-out;
   }
 }
+.black-nav {
+}
+.modal{
+  margin-top: 20px;
+  padding: 20px;
 
+}
 .App-header {
   min-height: 100vh;
   display: flex;
@@ -36,4 +42,32 @@
   100% {
     transform: translateY(0px);
   }
+}
+
+.-\31 -inaboothkr- {
+  width: 659px;
+  height: 861px;
+  font-family: NotoSansCJKKR;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.14px;
+  text-align: left;
+  color: #1a1a1a;
+}
+
+/* .-\31 -inaboothkr- .text-style-1 { */
+.testtest.text-style-1 {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: normal;
+  color: #171725;
+}
+
+.-\31 -inaboothkr- .text-style-2 {
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 0.18px;
 }
