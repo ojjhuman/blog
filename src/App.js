@@ -4,11 +4,10 @@ import { Counter } from './features/counter/Counter';
 import './App.scss';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-
+import Button from 'react-bootstrap/Button';
 import Garage from './Garage.js';
 import MyVerticallyCenteredModal from './services/MyVerticallyCenteredModal.js';
-import Button from 'react-bootstrap/Button';
+import StyledDropzone from './services/StyledDropzone'
 
 function App() {
   const [modalShow, setModalShow] = React.useState(false);
@@ -24,6 +23,7 @@ function App() {
       />
 
 
+      <StyledDropzone />
 
 
       <header className="App-header">
